@@ -1,25 +1,64 @@
 {
 	code: "sling",
+	tags: [	"weapon","weapon-ranged","weapon-sling"	],
+    variantgroups: [
+		{ code: "type", states: ["makeshift","leather","sturdy"] },
+	],
+	texturesByType: {
+		"sling-makeshift": {
+			"normal": { base: "game:block/cloth/linen/village/beige" },
+			"reedrope": { base: "game:block/cloth/ropedcloth" }
+		},
+		"sling-leather": {
+			"normal": { base: "game:block/cloth/leather/normal"	},
+			"reedrope": { base: "game:block/cloth/ropedcloth" }
+		},
+		"sling-sturdy": {
+			"normal": { base: "game:block/cloth/basic/gray"	},
+			"reedrope": { base: "game:block/cloth/ropedcloth" }
+		}
+	},
 	class: "ItemSling",
-	tags: ["weapon", "weapon-ranged", "weapon-sling"],
 	maxstacksize: 1,
-	durability: 300,
+	durabilityByType: {
+		"sling-makeshift": 300,
+		"sling-leather": 500,
+		"sling-sturdy": 800
+	},
 	shape: {
-		base: "item/tool/sling/folded",
+		base: "game:item/tool/sling/folded",
 		alternates: [
-			{ base: "item/tool/sling/sling-charge2" },
-			{ base: "item/tool/sling/sling-charge3" }
+			{ base: "game:item/tool/sling/sling-charge2" },
+			{ base: "game:item/tool/sling/sling-charge3" }
 		]
 	},
 	tool: "sling",
-	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"] },
+	creativeinventory: {
+		"general": ["*"],
+		"items": ["*"],
+		"tools": ["*"]
+	},
 	attributes: {
 		aimAnimation: "slingaimbalearic",
-		damage: 2.5,
-		toolrackTransform: {
-			translation: { x: -0.35, y: 0.73, z: 0.1 },
-			rotation: { x: 1, y: 180, z: 0 },
-			scale: 1.25
+		damageByType: {
+			"sling-makeshift": 2.5,
+			"sling-leather": 3.5,
+			"sling-sturdy": 4
+		},
+		damageTierByType: {
+			"sling-makeshift": 0,
+			"sling-leather": 0,
+			"sling-sturdy": 0
+		},
+		statModifierByType: {
+			"sling-makeshift": {"rangedWeaponsAcc": -0.2},
+			"sling-leather": {"rangedWeaponsAcc": -0.1},
+			"sling-sturdy": {"rangedWeaponsAcc": 0}
+		},
+	toolrackTransform: {
+			translation: { x: -0.05, y: 1.2, z: 0 },
+			rotation: { x: 1, y: 0, z: 0 },
+			scale: 2.5
 		}
 	},
 	guiTransform: {

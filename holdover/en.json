@@ -17032,12 +17032,5 @@
 
     "ingame-minutes-left-for-player-revival": "{0} ingame minutes left for player revival",
     "Ok, allow traverse everyone is now {0}": "Ok, allow traverse everyone is now {0}",
-	"confirm-run-command": "Are you sure you want to attempt to run this command?\n\n\t{0}",
-	
-	//Dogbones amazing language schenanigans
-	"charattribute-armorDurabilityLoss--0.15": "+15% tool durability",
-
-    "trait-slinger": "<font color=\"#84ff84\">• Slingers </font>",
-        
-    "traitname-slinger": "Slinger"
+	"confirm-run-command": "Are you sure you want to attempt to run this command?\n\n\t{0}"
 }

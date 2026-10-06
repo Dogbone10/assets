@@ -1,0 +1,11 @@
+{
+        "charattribute-armorDurabilityLoss--0.15": "+15% tool durability",
+
+        "trait-slinger": "<font color=\"#84ff84\">• Slingerssss </font>",
+        
+        "traitname-slinger": "Slinger",
+
+        "item-sling-makeshift": "Makeshift Sling",
+        "item-sling-leather": "Leather Sling",
+        "game:item-sling-sturdy": "Sturdy Sling"
+}

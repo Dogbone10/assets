@@ -56,15 +56,16 @@
 	{
 		code: "precise",
 		type: "positive",
+		// Since mechanical and normal damage modifiers stack and the clock maker as a -15% normal dmg reduction, we set this to 1.25/0.85 so that the actual damage bonus is +25% against mechanicals
 		attributes: {
-			"miningSpeedMul": 0.1
+			"mechanicalsDamage": 0.4705
 		}
 	},
 	{
 		code: "technical",
 		type: "positive",
 		attributes: {
-			"toolDurabilityLoss": 2
+			"temporalGearTLRepairCost": -1
 		}
 	},
 	{
@@ -114,6 +115,7 @@
 		code: "claustrophobic",
 		type: "negative",
 		attributes: {
+			"oreDropRate": -0.15,
 			"miningSpeedMul": -0.1
 		}
 	},
@@ -121,7 +123,8 @@
 		code: "frail",
 		type: "negative",
 		attributes: {
-			"maxhealthExtraPoints": -2.5
+			"maxhealthExtraPoints": -2.5,
+			"bowDrawingStrength": -0.25
 		}
 	},
 	{
@@ -142,7 +145,7 @@
 		code: "nearsighted",
 		type: "negative",
 		attributes: {
-			"rangedWeaponsAcc": -0.3,
+			"rangedWeaponsDamage": -0.15
 		}
 	},
 	{
@@ -187,13 +190,6 @@
 		code: "tinkerer",
 		type: "positive",
 		attributes: {
-		}
-	},
-	{
-		code: "slinger",
-		type: "positive",
-		attributes: {
-			"bowDrawingStrength": 0.2
 		}
 	}
 ]

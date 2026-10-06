@@ -1,0 +1,9 @@
+[
+	{
+		code: "slinger",
+		type: "positive",
+		attributes: {
+			"bowDrawingStrength": 0.2
+		}
+	}
+]

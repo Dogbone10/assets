@@ -29,7 +29,7 @@
 	{
 		enabled: true,
 		code: "malefactor",
-		traits: ["forager", "slinger", "furtive", "improviser", "weak", "nervous"],
+		traits: ["forager", "pilferer", "furtive", "improviser", "frail", "nervous"],
 		gear: [
 			{ type: "item", code: "clothes-upperbody-malefactor-shirt" },
 			{ type: "item", code: "clothes-upperbodyover-malefactor-tunic" },
@@ -45,7 +45,7 @@
 	{
 		enabled: true,
 		code: "clockmaker",
-		traits: ["precise", "technical", "pilferer", "frail", "nervous", "tinkerer"],
+		traits: ["precise", "technical", "fleetfooted", "frail", "nervous", "tinkerer"],
 		gear: [
 			{ type: "item", code: "clothes-shoulder-clockmaker-apron" },
 			{ type: "item", code: "clothes-upperbody-clockmaker-shirt" },
