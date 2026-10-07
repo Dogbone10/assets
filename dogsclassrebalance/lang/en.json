@@ -3,9 +3,9 @@
 
         "trait-slinger": "<font color=\"#84ff84\">• Slingerssss </font>",
         
-        "traitname-slinger": "Slinger",
+        "traitname-slinger": "Slinger but Dogbone",
 
         "item-sling-makeshift": "Makeshift Sling",
         "item-sling-leather": "Leather Sling",
-        "game:item-sling-sturdy": "Sturdy Sling"
+        "item-sling-sturdy": "Sturdy Sling"
 }

@@ -57,14 +57,14 @@
 		code: "precise",
 		type: "positive",
 		attributes: {
-			"miningSpeedMul": 0.1
+			"rangedWeaponsAcc": 0.3
 		}
 	},
 	{
 		code: "technical",
 		type: "positive",
 		attributes: {
-			"toolDurabilityLoss": 2
+			"miningSpeedMul": 0.1
 		}
 	},
 	{

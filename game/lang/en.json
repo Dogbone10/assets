@@ -9159,8 +9159,8 @@
 	"traitdesc-bowyer": "Exclusive craftable <a href=\"handbooksearch://crude bow or crude arrow or recurve bow \">bows and arrows</a>",
 	"traitdesc-clothier": "Exclusive craftable <a href=\"handbooksearch://sewing kit or chateau or pastoral or reindeer or moon or minstrel or fortune or nomad or spice or cobalt or azure or thigh-high or fine trousers or high leather\">sewing kit and clothes</a>",
 	"traitdesc-merciless": "Exclusive craftable Blackguard <a href=\"handbooksearch://blackguard shortsword\">shortsword</a> and <a href=\"handbooksearch://blackguard shield\">shield</a>",
-	"traitdesc-improviser": "Exclusive craftable <a href=\"handbooksearch://sling\">sling</a>",
-	"traitdesc-tinkerer": "Exclusive craftable <a href=\"handbooksearch://tuning spear\">device</a> to tame locusts",
+	"traitdesc-improviser": "Exclusive craftable <a href=\"handbooksearch://makeshift sling or sturdy sling\">slings</a>",
+	"traitdesc-tinkerer": "Exclusive craftable <a href=\"handbooksearch://wrench\">wrench</a> and a <a href=\"handbooksearch://tuning spear\">device</a> to tame locusts.",
 
 	"characterclass-commoner": "Commoner",
 	"characterclass-hunter": "Hunter",
@@ -17037,7 +17037,11 @@
 	//Dogbones amazing language schenanigans
 	"charattribute-armorDurabilityLoss--0.15": "+15% tool durability",
 
-    "trait-slinger": "<font color=\"#84ff84\">• Slingers </font>",
+    "trait-slinger": "<font color=\"#84ff84\">• Slinger </font>",
         
-    "traitname-slinger": "Slinger"
+    "traitname-slinger": "Slinger",
+
+	"item-sling-makeshift": "Makeshift Sling",
+    "item-sling-leather": "Leather Sling",
+    "item-sling-sturdy": "Sturdy Sling"
 }
