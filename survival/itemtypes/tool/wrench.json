@@ -15,7 +15,7 @@
 		]
 	},
 	variantgroups: [
-		{ code: "metal", states: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel" ]},
+		{ code: "metal", states: ["scrap", "copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel" ]},
 	],
 	shape: { base: "item/tool/wrench/{metal}1" },
 	texturesByType: {
@@ -59,6 +59,7 @@
 	damagedby: ["blockbreaking", "attacking"],
 	heldTpHitAnimation: "smithing",
 	tooltierbytype: {
+		"*-scrap": 1,
 		"*-copper": 2,
 		"*-gold": 2,
 		"*-silver": 2,
@@ -71,6 +72,7 @@
 	},
 	durabilitybytype: {
 		"wrench-stone": 60,
+		"wrench-scrap": 120,
 		"wrench-gold": 250,
 		"wrench-silver": 250,
 		"wrench-copper": 500,
@@ -83,6 +85,7 @@
 	},
 	attackpowerbytype: {
 		"wrench-stone": 1,
+		"wrench-scrap": 1.25,
 		"wrench-copper": 1.25,
 		"wrench-gold": 1.5,
 		"wrench-silver": 1.5,
