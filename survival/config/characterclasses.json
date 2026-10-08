@@ -2,7 +2,7 @@
 	{
 		enabled: true,
 		code: "commoner",
-		traits: [],
+		traits: ["furtive"],
 		gear: [
 			{ type: "item", code: "clothes-upperbody-commoner-shirt" },
 			{ type: "item", code: "clothes-upperbodyover-commoner-coat" },
