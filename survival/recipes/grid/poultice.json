@@ -2,7 +2,7 @@
 	{
 		ingredientPattern: "SBS	_L_",
 		ingredients: {
-			"L": { type: "block", code: "linen-*" },
+			"L": { type: "item", code: "flaxtwine" },
 			"S": { type: "item", code: "powder-sulfur" },
 			"B": { type: "block", code: "bowl-*-fired" }
 		},
@@ -19,7 +19,7 @@
 	{
 		ingredientPattern: "H	L",
 		ingredients: {
-			"L": { type: "block", code: "linen-*" },
+			"L": { type: "item", code: "flaxtwine" },
 			"H": { type: "block", code: "flower-horsetail-free", quantity: 4 }
 		},
 		width: 1,

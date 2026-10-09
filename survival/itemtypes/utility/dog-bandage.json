@@ -1,14 +1,24 @@
 {
-	code: "poultice",
+	code: "bandage",
 	behaviors: [
 		{
 			name: "HealingItem",
 			propertiesByType: {
-				"*-linen-horsetail": {
-					health: 4,
-					applicationtimesec: 3,
+				"*-makeshift-medicalkit": {
+					health: 24,
+					applicationtimesec: 10,
+					maxapplicationtimesec: 16,
+					effectdurationsec: 120,
+					ticks: 120,
+					cancelinair: false,
+					cancelwhileswimming: false,
+					delaytocancelsec: 0.5
+				},
+				"*-makeshift-bandage": {
+					health: 2,
+					applicationtimesec: 1.5,
 					maxapplicationtimesec: 10,
-					effectdurationsec: 10,
+					effectdurationsec: 5,
 					ticks: 10,
 					cancelinair: false,
 					cancelwhileswimming: false,
@@ -22,19 +32,16 @@
             shelf: {
                 size: { width: 7, height: 1, length: 8 },
 				behavior: "Stacking",
-				category: "poultice",
+				category: "bandage",
                 randYRotAngle: 10
             }
         }		
 	},
 	maxstacksize: 16,
 	variantgroups: [
-		{ code: "material", states: ["linen", "reed" ] },
+		{ code: "agent", states: ["bandage", "medicalkit" ] },
 	],
 	shape: { base: "item/medicine/poultice-{material}" },
-	textures: {
-		"agent": { base: "item/medicine/{material}/{agent}" },
-	},
 	creativeinventory: { "general": ["*"], "items": ["*"] },
 	materialDensity: 600,
 	guiTransform: {
