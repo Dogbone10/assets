@@ -2,7 +2,7 @@
 	{
 		enabled: true,
 		code: "commoner",
-		traits: ["furtive"],
+		traits: ["furtive", "satiated"],
 		gear: [
 			{ type: "item", code: "clothes-upperbody-commoner-shirt" },
 			{ type: "item", code: "clothes-upperbodyover-commoner-coat" },
@@ -71,7 +71,7 @@
 	{
 		enabled: true,
 		code: "tailor",
-		traits: ["clothier", "mender", "civil", "weak", "kind"],
+		traits: ["clothier", "mender", "civil", "weak", "kind", "resilient"],
 		gear: [
 			{ type: "item", code: "clothes-face-tailor-mask" },
 			{ type: "item", code: "clothes-upperbodyover-tailor-jacket" },

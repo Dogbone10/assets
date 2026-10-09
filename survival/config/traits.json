@@ -195,5 +195,20 @@
 		attributes: {
 			"bowDrawingStrength": 0.2
 		}
+	},
+	{
+		code: "resilient",
+		type: "positive",
+		attributes: {
+			"healingeffectivness": 80,
+			"maxSaturationFactor": 2
+		}
+	},
+	{
+		code: "satiated",
+		type: "positive",
+		attributes: {
+			"maxSaturationFactor": 0.3
+		}
 	}
 ]

@@ -9160,7 +9160,7 @@
 	"traitdesc-clothier": "Exclusive craftable <a href=\"handbooksearch://sewing kit or chateau or pastoral or reindeer or moon or minstrel or fortune or nomad or spice or cobalt or azure or thigh-high or fine trousers or high leather\">sewing kit and clothes</a>",
 	"traitdesc-merciless": "Exclusive craftable Blackguard <a href=\"handbooksearch://blackguard shortsword\">shortsword</a> and <a href=\"handbooksearch://blackguard shield\">shield</a>",
 	"traitdesc-improviser": "Exclusive craftable <a href=\"handbooksearch://makeshift sling or sturdy sling\">slings</a>",
-	"traitdesc-tinkerer": "Exclusive craftable <a href=\"handbooksearch://wrench\">wrench</a> and a <a href=\"handbooksearch://tuning spear\">device</a> to tame locusts.",
+	"traitdesc-tinkerer": "Exclusive craftable <a href=\"handbooksearch://scrap wrench\">wrench</a> and a <a href=\"handbooksearch://tuning spear\">device</a> to tame locusts.",
 
 	"characterclass-commoner": "Commoner",
 	"characterclass-hunter": "Hunter",
@@ -17035,13 +17035,22 @@
 	"confirm-run-command": "Are you sure you want to attempt to run this command?\n\n\t{0}",
 	
 	//Dogbones amazing language schenanigans
-	"charattribute-armorDurabilityLoss--0.15": "+15% tool durability",
-
+	"charattribute-maxSaturationFactor-0.3": "+30% max satiety",
+	"charattribute-charattribute-rangedWeaponsAcc--0.3": "-30% ranged accuracy",
     "trait-slinger": "<font color=\"#84ff84\">• Slinger </font>",
-        
-    "traitname-slinger": "Slinger",
+    "trait-resilient": "<font color=\"#84ff84\">• Resilient </font>",
+    "trait-satiated": "<font color=\"#84ff84\">• Satiated </font>",
+
+	"traitname-slinger": "Slinger",
+	"traitname-resilient": "Resilient",
+	"traitname-satiated": "Satiated",
+
 
 	"item-sling-makeshift": "Makeshift Sling",
     "item-sling-leather": "Leather Sling",
-    "item-sling-sturdy": "Sturdy Sling"
+    "item-sling-sturdy": "Sturdy Sling",
+	"item-scrap-wrench": "Scrap Wrench"
+
+
+	
 }
