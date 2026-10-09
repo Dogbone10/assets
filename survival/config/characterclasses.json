@@ -29,7 +29,7 @@
 	{
 		enabled: true,
 		code: "malefactor",
-		traits: ["forager", "slinger", "furtive", "improviser", "weak", "nervous"],
+		traits: ["forager", "slinger", "furtive", "improviser", "frail", "nervous"],
 		gear: [
 			{ type: "item", code: "clothes-upperbody-malefactor-shirt" },
 			{ type: "item", code: "clothes-upperbodyover-malefactor-tunic" },

@@ -20,7 +20,8 @@
 		code: "fleetfooted",
 		type: "positive",
 		attributes: {
-			"walkspeed": 0.1
+			"walkspeed": 0.1,
+			"animalSeekingRange": -0.15
 		}
 	},
 	{
@@ -34,7 +35,8 @@
 		type: "positive",
 		attributes: {
 			"forageDropRate": 0.1,
-			"wildCropDropRate": 0.2
+			"wildCropDropRate": 0.2,
+			"vesselContentsDropRate": 0.15
 		}
 	},
 	{
@@ -50,7 +52,8 @@
 		code: "furtive",
 		type: "positive",
 		attributes: {
-			"animalSeekingRange": -0.35
+			"animalSeekingRange": -0.35,
+			"sneakSpeed": 0.5
 		}
 	},
 	{
@@ -200,8 +203,7 @@
 		code: "resilient",
 		type: "positive",
 		attributes: {
-			"healingeffectivness": 80,
-			"maxSaturationFactor": 2
+			"healingeffectivness": 0.5
 		}
 	},
 	{

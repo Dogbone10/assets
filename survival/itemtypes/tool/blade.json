@@ -317,6 +317,8 @@
 	},
 	attackRangebytype: {
 		"blade-longsword-admin": 10,
+		"blade-forlorn-iron": 3,
+		"blade-blackguard-iron": 3,
 		"*": 2.5
 	},
 	tooltierbytype: {

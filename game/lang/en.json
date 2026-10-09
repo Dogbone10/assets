@@ -17037,6 +17037,9 @@
 	//Dogbones amazing language schenanigans
 	"charattribute-maxSaturationFactor-0.3": "+30% max satiety",
 	"charattribute-charattribute-rangedWeaponsAcc--0.3": "-30% ranged accuracy",
+	"charattribute-animalSeekingRange--0.15": "-15% animal detection range",
+	"charattribute-healingeffectivness-1": "50% short healing application time",
+
     "trait-slinger": "<font color=\"#84ff84\">• Slinger </font>",
     "trait-resilient": "<font color=\"#84ff84\">• Resilient </font>",
     "trait-satiated": "<font color=\"#84ff84\">• Satiated </font>",
@@ -17049,7 +17052,7 @@
 	"item-sling-makeshift": "Makeshift Sling",
     "item-sling-leather": "Leather Sling",
     "item-sling-sturdy": "Sturdy Sling",
-	"item-scrap-wrench": "Scrap Wrench"
+	"item-wrench-scrap": "Scrap Wrench"
 
 
 	
