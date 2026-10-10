@@ -15,9 +15,9 @@
 					delaytocancelsec: 0.5
 				},
 				"*-patch": {
-					health: 2,
+					health: 1,
 					applicationtimesec: 1.5,
-					maxapplicationtimesec: 10,
+					maxapplicationtimesec: 4.5,
 					effectdurationsec: 5,
 					ticks: 10,
 					cancelinair: false,
