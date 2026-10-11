@@ -1,6 +1,7 @@
 [
 	{
 		ingredientPattern: "HR,FK",
+		requiresTrait: "clothier",
 		ingredients: {
 			"R": { type: "item", code: "resin", quantity: 1 },
 			"F": { type: "item", code: "flaxtwine", quantity: 1 },
@@ -13,6 +14,7 @@
 	},
 	{
 		ingredientPattern: "SH,BA",
+		requiresTrait: "clothier",
 		ingredients: {
 			"A": { type: "block", code: "bowl-*-fired" },
 			"B": { type: "item", code: "bone-fish", quantity: 1 },
@@ -26,6 +28,6 @@
 		},
 		width: 2,
 		height: 2,
-		output: { type: "item", code: "bandage-stitch"  }
+		output: { type: "item", code: "bandage-stitch" }
 	}
 ]

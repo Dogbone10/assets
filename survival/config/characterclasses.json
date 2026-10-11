@@ -71,7 +71,7 @@
 	{
 		enabled: true,
 		code: "tailor",
-		traits: ["clothier", "mender", "civil", "weak", "kind", "resilient"],
+		traits: ["clothier", "mender", "patient", "civil", "weak", "kind"],
 		gear: [
 			{ type: "item", code: "clothes-face-tailor-mask" },
 			{ type: "item", code: "clothes-upperbodyover-tailor-jacket" },
