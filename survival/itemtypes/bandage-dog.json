@@ -4,16 +4,6 @@
 		{
 			name: "HealingItem",
 			propertiesByType: {
-				"*-stitch": {
-					health: 16,
-					applicationtimesec: 10,
-					maxapplicationtimesec: 16,
-					effectdurationsec: 40,
-					ticks: 40,
-					cancelinair: false,
-					cancelwhileswimming: false,
-					delaytocancelsec: 0.5
-				},
 				"*-patch": {
 					health: 1,
 					applicationtimesec: 1.5,
@@ -23,7 +13,28 @@
 					cancelinair: false,
 					cancelwhileswimming: false,
 					delaytocancelsec: 0.5
+				},
+				"*-stitch": {
+					health: 16,
+					applicationtimesec: 8,
+					maxapplicationtimesec: 16,
+					effectdurationsec: 40,
+					ticks: 40,
+					cancelinair: false,
+					cancelwhileswimming: false,
+					delaytocancelsec: 0.5
+				},
+				"*-medkit": {
+					health: 20,
+					applicationtimesec: 12,
+					maxapplicationtimesec: 16,
+					effectdurationsec: 60,
+					ticks: 60,
+					cancelinair: false,
+					cancelwhileswimming: false,
+					delaytocancelsec: 0.5
 				}
+				
 			}
 		}
 	],
@@ -39,9 +50,9 @@
 	},
 	maxstacksize: 16,
 	variantgroups: [
-		{ code: "type", states: ["patch", "stitch" ] },
+		{ code: "type", states: ["patch", "stitch", "medkit" ] },
 	],
-	shape: { base: "dogsshapes/item/medicine/dog-{type}" },
+	shape: { base: "item/medicine/{type}-dog" },
 	creativeinventory: { "general": ["*"], "items": ["*"] },
 	materialDensity: 600,
 	guiTransform: {

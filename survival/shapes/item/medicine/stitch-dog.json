@@ -8,7 +8,7 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"horsetail": "item/medicine/linen/horsetail",
+		"horsetail": "item/medicine/reed/horsetail",
 		"kapok": "block/wood/debarked/kapok",
 		"linen": "block/linen",
 		"bonehumanoid": "block/creature/bonehumanoid"
